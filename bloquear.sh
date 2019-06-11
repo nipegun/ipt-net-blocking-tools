@@ -45,7 +45,7 @@ if [ $# -ne $CantArgsEsperados ]
       echo ""
     else
       echo ""
-      echo "El archivo $Archivo no existe. Prueba con otro."
+      echo -e "${ColorRojo}El archivo $Archivo no existe. Prueba con otro.${FinColor}"
       echo ""
     fi
 fi
