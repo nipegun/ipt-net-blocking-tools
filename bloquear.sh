@@ -18,7 +18,7 @@ ColorRojo='\033[1;31m'
 ColorVerde='\033[1;32m'
 FinColor='\033[0m'
 
-Archivo=./$1.txt
+Archivo=/root/non-spanish-country-list/$1.txt
 
 if [ $# -ne $CantArgsEsperados ]
   then
