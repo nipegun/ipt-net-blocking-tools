@@ -8,6 +8,8 @@ https://es.wikipedia.org/wiki/Distribuci%C3%B3n_geogr%C3%A1fica_del_idioma_espa%
 
 ## Instalación
 
+
+```shell
 apt-get -y update
 apt-get -y install git ipset
 rm /root/non-spanish-country-list -R
@@ -16,6 +18,7 @@ git clone --depth=1 https://github.com/nipegun/non-spanish-country-list
 rm /root/non-spanish-country-list/.git -R
 rm /root/non-spanish-country-list/*
 chmod +x /root/non-spanish-country-list/*.sh -R
+```
 
 ## Países
 cn = China
