@@ -16,7 +16,7 @@ rm /root/non-spanish-country-list -R
 cd /root
 git clone --depth=1 https://github.com/nipegun/non-spanish-country-list
 rm /root/non-spanish-country-list/.git -R
-rm /root/non-spanish-country-list/*
+rm /root/non-spanish-country-list/README.md
 chmod +x /root/non-spanish-country-list/*.sh -R
 ```
 
