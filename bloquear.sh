@@ -43,8 +43,10 @@ if [ $# -ne $CantArgsEsperados ]
       done < $Archivo
       iptables -I INPUT -m set --match-set $1 src -j DROP
       echo ""
-    else 
-      echo "$Archivo no existe"
+    else
+      echo ""
+      echo "El archivo $Archivo no existe. Prueba con otro."
+      echo ""
     fi
 fi
 
