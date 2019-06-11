@@ -36,10 +36,11 @@ if [ $# -ne $CantArgsEsperados ]
   else
     if [ -f "$Archivo" ]; then
       echo ""
+      ipset --flush $1
       ipset create $1 hash:net
       while read line;
       do
-        ipset add $1 $line;
+        ipset -q add $1 $line;
       done < $Archivo
       iptables -I INPUT -m set --match-set $1 src -j DROP
       echo ""
