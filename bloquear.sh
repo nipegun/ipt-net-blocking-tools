@@ -38,13 +38,15 @@ if [ $# -ne $CantArgsEsperados ]
     echo -e "${ColorVerde}Bloqueando el país $1...${FinColor}"
     echo ""
     if [ -f "$Archivo" ]; then
-      ipset --flush $1
+      ipset -q --flush $1
       ipset create $1 hash:net
       while read line;
       do
         ipset -q add $1 $line;
       done < $Archivo
       iptables -I INPUT -m set --match-set $1 src -j DROP
+      echo ""
+      echo "País bloqueado!"
       echo ""
     else
       echo ""
