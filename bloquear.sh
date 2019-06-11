@@ -40,7 +40,7 @@ if [ $# -ne $CantArgsEsperados ]
       while read line;
       do
         ipset add $1 $line;
-      done < blocklist.txt
+      done < $Archivo
       iptables -I INPUT -m set --match-set $1 src -j DROP
       echo ""
     else 
