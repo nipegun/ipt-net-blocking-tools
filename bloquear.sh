@@ -34,10 +34,10 @@ if [ $# -ne $CantArgsEsperados ]
     echo ""
     exit $ArgsInsuficientes
   else
+    echo ""
+    echo -e "${ColorVerde}Bloqueando el país $1...${FinColor}"
+    echo ""
     if [ -f "$Archivo" ]; then
-      echo ""
-      echo -e "${ColorVerde}Bloqueando el país $1...${FinColor}"
-      echo ""
       ipset --flush $1
       ipset create $1 hash:net
       while read line;
