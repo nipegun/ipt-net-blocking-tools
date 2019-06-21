@@ -7,9 +7,9 @@
 # entonces hazlo realmente libre. No tienes que aceptar ningún tipo de términos
 # de uso o licencia para utilizarlo o modificarlo porque va sin CopyLeft.
 
-#------------------------------------------------------------------------------
-#  Script de NiPeGun para sincronizar el repositorio non-spanish-country-list
-#------------------------------------------------------------------------------
+#---------------------------------------------------------------------------------
+#  Script de NiPeGun para sincronizar el repositorio non-spanish-country-blocker
+#---------------------------------------------------------------------------------
 
 ColorRojo='\033[1;31m'
 ColorVerde='\033[1;32m'
@@ -23,12 +23,12 @@ wget -q --tries=10 --timeout=20 --spider https://github.com
     echo -e "  ${ColorVerde}Sincronizando repositorio...${FinColor}"
     echo "------------------------------------------------------------"
     echo ""
-    rm /root/non-spanish-country-list -R
+    rm /root/non-spanish-country-blocker -R
     cd /root
-    git clone --depth=1 https://github.com/nipegun/non-spanish-country-list
-    rm /root/non-spanish-country-list/.git -R
-    rm /root/non-spanish-country-list/README.md
-    chmod +x /root/non-spanish-country-list/*.sh -R
+    git clone --depth=1 https://github.com/nipegun/non-spanish-country-blocker
+    rm /root/non-spanish-country-blocker/.git -R
+    rm /root/non-spanish-country-blocker/README.md
+    chmod +x /root/non-spanish-country-blocker/*.sh -R
     echo ""
     echo "--------------------------------------------"
     echo -e "  ${ColorVerde}Repositorio sincronizado correctamente${FinColor}"
