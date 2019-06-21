@@ -20,7 +20,7 @@ wget -q --tries=10 --timeout=20 --spider https://github.com
   if [[ $? -eq 0 ]]; then
     echo ""
     echo "------------------------------------------------------------"
-    echo -e "  ${ColorVerde}Sincronizando repositorio...${FinColor}"
+    echo -e "  ${ColorVerde}Sincronizando repositorio non-spanish-country-blocker...${FinColor}"
     echo "------------------------------------------------------------"
     echo ""
     rm /root/non-spanish-country-blocker -R
