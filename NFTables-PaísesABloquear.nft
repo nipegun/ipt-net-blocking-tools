@@ -1,0 +1,25 @@
+#!/usr/bin/nft -f
+
+# CHINA
+include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv4/CN.ipv4"
+include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/CN.ipv6"
+# RUSIA
+include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv4/RU.ipv4"
+include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/RU.ipv6"
+# UCRANIA
+include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv4/UA.ipv4"
+include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/UA.ipv6"
+# VIETNAM
+include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv4/VN.ipv4"
+include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/VN.ipv6"
+
+# IPv4
+flush set netdev filter country-ipv4-blacklist
+add element netdev filter country-ipv4-blacklist $CN.ipv4
+add element netdev filter country-ipv4-blacklist $RU.ipv4
+
+# IPv6
+flush set netdev filter country-ipv6-blacklist
+add element netdev filter country-ipv6-blacklist $CN.ipv6
+add element netdev filter country-ipv6-blacklist $RU.ipv6
+
