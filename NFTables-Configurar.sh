@@ -12,7 +12,6 @@ sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geo
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv4/CN.ipv4"' /etc/nftables.conf
 sed -i -e 's|flush ruleset|flush ruleset\n|g' /etc/nftables.conf
 
-
 echo "table netdev filter {" >>                                                   /etc/nftables.conf
 echo "" >>                                                                        /etc/nftables.conf
 echo "  set country-ipv4-blacklist {" >>                                          /etc/nftables.conf
