@@ -17,7 +17,7 @@ echo "" >>                                                                      
 echo "  set country-ipv4-blacklist {" >>                                          /etc/nftables.conf
 echo "    type ipv4_addr" >>                                                      /etc/nftables.conf
 echo "    flags interval" >>                                                      /etc/nftables.conf
-echo "    elements = {'"$CN"'.ipv4, "$RU".ipv4, "$UA".ipv4, "$VN".ipv4 }" >>               /etc/nftables.conf
+echo "    elements = {'$CN'.ipv4, "$RU".ipv4, "$UA".ipv4, "$VN".ipv4 }" >>               /etc/nftables.conf
 echo "  }" >>                                                                     /etc/nftables.conf
 echo "" >>                                                                        /etc/nftables.conf
 echo "  set country-ipv6-blacklist {" >>                                          /etc/nftables.conf
