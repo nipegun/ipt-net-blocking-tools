@@ -19,9 +19,7 @@ FinColor='\033[0m'
 wget -q --tries=10 --timeout=20 --spider https://github.com
   if [[ $? -eq 0 ]]; then
     echo ""
-    echo "------------------------------------------------------------"
-    echo -e "  ${ColorVerde}Sincronizando repositorio non-spanish-country-blocker...${FinColor}"
-    echo "------------------------------------------------------------"
+    echo -e "  ${ColorVerde}Sincronizando repositorio non-spanish-country-blocker...${FinColor}" 
     echo ""
     rm /root/scripts/non-spanish-country-blocker -R
     cd /root/scripts
@@ -30,15 +28,14 @@ wget -q --tries=10 --timeout=20 --spider https://github.com
     rm /root/scripts/non-spanish-country-blocker/README.md
     chmod +x /root/scripts/non-spanish-country-blocker/*.sh -R
     echo ""
-    echo "--------------------------------------------"
     echo -e "  ${ColorVerde}Repositorio sincronizado correctamente${FinColor}"
-    echo "--------------------------------------------"
     echo ""
+    echo -e "  ${ColorVerde}Creando sets de IPs...${FinColor}"
+    echo ""
+    /root/scripts/non-spanish-country-blocker/CrearSetsDeIPs.sh
   else
     echo ""
-    echo "---------------------------------------------------------------------------------------------------"
     echo -e "${ColorRojo}No se pudo iniciar la sincronización del repositorio porque no se detectó conexión a Internet.${FinColor}"
-    echo "---------------------------------------------------------------------------------------------------"
     echo ""
 fi
 
