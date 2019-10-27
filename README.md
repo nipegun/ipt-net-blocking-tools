@@ -12,12 +12,12 @@ https://es.wikipedia.org/wiki/Distribuci%C3%B3n_geogr%C3%A1fica_del_idioma_espa%
 ```shell
 apt-get -y update
 apt-get -y install git ipset
-rm /root/non-spanish-country-blocker -R
-cd /root
+rm /root/scripts/non-spanish-country-blocker -R
+cd /root/scripts
 git clone --depth=1 https://github.com/nipegun/non-spanish-country-blocker
-rm /root/non-spanish-country-blocker/.git -R
-rm /root/non-spanish-country-blocker/README.md
-chmod +x /root/non-spanish-country-blocker/*.sh -R
+rm /root/scripts/non-spanish-country-blocker/.git -R
+rm /root/scripts/non-spanish-country-blocker/README.md
+chmod +x /root/scripts/non-spanish-country-blocker/*.sh -R
 ```
 
 ## Países disponibles (por ahora)
