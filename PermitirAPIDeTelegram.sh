@@ -10,5 +10,5 @@
 echo ""
 echo "Anulando la línea que contiene la IP de api.telegram.org de la lista de IPs de Rusia..."
 echo ""
-sed -i -e's|149.154.160.0/20|#149.154.160.0/20|g' /root/non-spanish-country-blocker/ru.txt
+sed -i -e's|149.154.160.0/20|#149.154.160.0/20|g' /root/scripts/non-spanish-country-blocker/ru.txt
 
