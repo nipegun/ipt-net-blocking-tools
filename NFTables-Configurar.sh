@@ -2,6 +2,8 @@
 
 apt-get -y install nftables
 
+cp /etc/nftables.conf /etc/nftables.conf.bak
+
 # IPv6
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/ZW.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/ZR.ipv6"' /etc/nftables.conf
