@@ -24,7 +24,7 @@ wget -q --tries=10 --timeout=20 --spider https://github.com
     echo "------------------------------------------------------------"
     echo ""
     rm /root/scripts/non-spanish-country-blocker -R
-    cd /root
+    cd /root/scripts
     git clone --depth=1 https://github.com/nipegun/non-spanish-country-blocker
     rm /root/scripts/non-spanish-country-blocker/.git -R
     rm /root/scripts/non-spanish-country-blocker/README.md
