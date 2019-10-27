@@ -33,3 +33,4 @@ echo "    ip6 saddr @country-ipv6-blacklist counter drop" >>                    
 echo "  }" >>                                                                     /etc/nftables.conf
 echo "" >>                                                                        /etc/nftables.conf
 echo "}" >>                                                                       /etc/nftables.conf
+
