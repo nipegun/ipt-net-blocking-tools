@@ -27,11 +27,11 @@ table netdev filter {
 		flags interval
 		elements = { $RU.ipv6, $CN.ipv6 }
 	}
-  
+
 	chain ingress {
 		type filter hook ingress device <device> priority 0; policy accept;
 		ip saddr @country-ipv4-blacklist counter drop
 		ip6 saddr @country-ipv6-blacklist counter drop
 	}
-  
+
 }
