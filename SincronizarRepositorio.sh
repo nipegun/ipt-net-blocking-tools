@@ -23,12 +23,12 @@ wget -q --tries=10 --timeout=20 --spider https://github.com
     echo -e "  ${ColorVerde}Sincronizando repositorio non-spanish-country-blocker...${FinColor}"
     echo "------------------------------------------------------------"
     echo ""
-    rm /root/non-spanish-country-blocker -R
+    rm /root/scripts/non-spanish-country-blocker -R
     cd /root
     git clone --depth=1 https://github.com/nipegun/non-spanish-country-blocker
-    rm /root/non-spanish-country-blocker/.git -R
-    rm /root/non-spanish-country-blocker/README.md
-    chmod +x /root/non-spanish-country-blocker/*.sh -R
+    rm /root/scripts/non-spanish-country-blocker/.git -R
+    rm /root/scripts/non-spanish-country-blocker/README.md
+    chmod +x /root/scripts/non-spanish-country-blocker/*.sh -R
     echo ""
     echo "--------------------------------------------"
     echo -e "  ${ColorVerde}Repositorio sincronizado correctamente${FinColor}"
