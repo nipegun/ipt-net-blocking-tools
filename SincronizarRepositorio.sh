@@ -32,6 +32,7 @@ wget -q --tries=10 --timeout=20 --spider https://github.com
     echo ""
     echo -e "  ${ColorVerde}Creando sets de IPs...${FinColor}"
     echo ""
+    cd /root/scripts/non-spanish-country-blocker/
     /root/scripts/non-spanish-country-blocker/CrearSetsDeIPs.sh
   else
     echo ""
