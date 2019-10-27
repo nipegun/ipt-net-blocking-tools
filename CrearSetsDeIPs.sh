@@ -1,5 +1,5 @@
 #!/bin/bash
-#
+# https://github.com/chr0mag/geoipsets/blob/master/build-country-sets.sh
 # write permission to '/etc' required
 
 COUNTRY_ID_MAP="GeoLite2-Country-Locations-en.csv"
