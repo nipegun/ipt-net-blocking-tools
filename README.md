@@ -23,9 +23,10 @@ chmod +x /root/scripts/non-spanish-country-blocker/*.sh -R
 ## Configuración NFTables
 
 Ejecutar:
+```shell
 /root/scripts/non-spanish-country-blocker/NFTables-Configurar.sh
 /root/scripts/non-spanish-country-blocker/NFTables-RecargarReglas.sh
-
+```
 ## Configuración IPTables
 
 Ejecutar:
