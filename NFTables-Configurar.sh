@@ -6,10 +6,10 @@ cp /etc/nftables.conf /etc/nftables.conf.bak
 
 # IPv6
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/ZW.ipv6"' /etc/nftables.conf
-#sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/ZR.ipv6"' /etc/nftables.conf
+sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/ZR.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/ZM.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/ZA.ipv6"' /etc/nftables.conf
-#sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/YU.ipv6"' /etc/nftables.conf
+sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/YU.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/YT.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/YE.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/WS.ipv6"' /etc/nftables.conf
@@ -21,7 +21,7 @@ sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geo
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/VC.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/UZ.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/UM.ipv6"' /etc/nftables.conf
-#sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/UK.ipv6"' /etc/nftables.conf
+sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/UK.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/UG.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/UA.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/TZ.ipv6"' /etc/nftables.conf
@@ -29,7 +29,7 @@ sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geo
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/TV.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/TT.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/TR.ipv6"' /etc/nftables.conf
-#sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/TP.ipv6"' /etc/nftables.conf
+sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/TP.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/TO.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/TN.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/TM.ipv6"' /etc/nftables.conf
@@ -44,7 +44,7 @@ sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geo
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/SZ.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/SY.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/SX.ipv6"' /etc/nftables.conf
-#sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/SU.ipv6"' /etc/nftables.conf
+sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/SU.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/ST.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/SS.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/SR.ipv6"' /etc/nftables.conf
@@ -55,7 +55,7 @@ sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geo
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/SK.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/SJ.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/SI.ipv6"' /etc/nftables.conf
-sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/SH.ipv6"' /etc/nftables.conf
+#sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/SH.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/SG.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/SE.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/SD.ipv6"' /etc/nftables.conf
@@ -70,7 +70,7 @@ sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geo
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/QA.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/PW.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/PS.ipv6"' /etc/nftables.conf
-sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/PN.ipv6"' /etc/nftables.conf
+#sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/PN.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/PM.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/PL.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/PK.ipv6"' /etc/nftables.conf
@@ -78,13 +78,13 @@ sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geo
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/PF.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/OM.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/NZ.ipv6"' /etc/nftables.conf
-sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/NU.ipv6"' /etc/nftables.conf
+#sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/NU.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/NR.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/NP.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/NO.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/NL.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/NG.ipv6"' /etc/nftables.conf
-sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/NF.ipv6"' /etc/nftables.conf
+#sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/NF.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/NE.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/NC.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/NA.ipv6"' /etc/nftables.conf
@@ -146,12 +146,12 @@ sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geo
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/HU.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/HT.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/HR.ipv6"' /etc/nftables.conf
-sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/HM.ipv6"' /etc/nftables.conf
+#sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/HM.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/HK.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/GY.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/GW.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/GU.ipv6"' /etc/nftables.conf
-sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/GS.ipv6"' /etc/nftables.conf
+#sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/GS.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/GR.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/GP.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/GN.ipv6"' /etc/nftables.conf
@@ -166,12 +166,12 @@ sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geo
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/GA.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/FO.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/FM.ipv6"' /etc/nftables.conf
-sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/FK.ipv6"' /etc/nftables.conf
+#sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/FK.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/FJ.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/FI.ipv6"' /etc/nftables.conf
-#sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/EU.ipv6"' /etc/nftables.conf
+sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/EU.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/ET.ipv6"' /etc/nftables.conf
-sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/ER.ipv6"' /etc/nftables.conf
+#sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/ER.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/EG.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/EE.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/DZ.ipv6"' /etc/nftables.conf
@@ -179,13 +179,13 @@ sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geo
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/DK.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/DJ.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/DE.ipv6"' /etc/nftables.conf
-#sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/DD.ipv6"' /etc/nftables.conf
+sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/DD.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/CZ.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/CY.ipv6"' /etc/nftables.conf
-sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/CX.ipv6"' /etc/nftables.conf
+#sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/CX.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/CW.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/CV.ipv6"' /etc/nftables.conf
-#sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/CS.ipv6"' /etc/nftables.conf
+sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/CS.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/CN.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/CM.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/CK.ipv6"' /etc/nftables.conf
@@ -194,7 +194,7 @@ sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geo
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/CG.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/CF.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/CD.ipv6"' /etc/nftables.conf
-sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/CC.ipv6"' /etc/nftables.conf
+#sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/CC.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/BY.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/BW.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/BV.ipv6"' /etc/nftables.conf
@@ -220,14 +220,14 @@ sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geo
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/AT.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/AS.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/AO.ipv6"' /etc/nftables.conf
-#sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/AN.ipv6"' /etc/nftables.conf
+sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/AN.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/AM.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/AL.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/AI.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/AG.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/AF.ipv6"' /etc/nftables.conf
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/AE.ipv6"' /etc/nftables.conf
-#sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/AC.ipv6"' /etc/nftables.conf
+sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/AC.ipv6"' /etc/nftables.conf
 
 # IPv4
 sed -i '/^flush ruleset/a include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv4/ZW.ipv4"' /etc/nftables.conf
