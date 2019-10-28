@@ -449,6 +449,8 @@ include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/ZM.ipv6
 #include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/ZR.ipv6"
 include "/root/scripts/non-spanish-country-blocker/geoipsets/nftset/ipv6/ZW.ipv6"
 
+define CountriesToBlock = { CN, RU, UA, VN }
+
 table netdev filter {
 
   set country-ipv4-blacklist {
