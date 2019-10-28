@@ -20,17 +20,13 @@ rm /root/scripts/non-spanish-country-blocker/README.md
 chmod +x /root/scripts/non-spanish-country-blocker/*.sh -R
 ```
 
-## Países disponibles (por ahora)
+## Configuración NFTables
 
-cn = China
+Ejecutar:
+/root/scripts/non-spanish-country-blocker/NFTables-Configurar.sh
+/root/scripts/non-spanish-country-blocker/NFTables-RecargarReglas.sh
 
-de = Alemania
+## Configuración IPTables
 
-ru = Rusia
-
-ua = Ucrania
-
-uk = Reino Unido
-
-vn = Vietnam
-
+Ejecutar:
+/root/scripts/non-spanish-country-blocker/IPTables-Configurar.sh
