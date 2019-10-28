@@ -8,7 +8,6 @@ https://es.wikipedia.org/wiki/Distribuci%C3%B3n_geogr%C3%A1fica_del_idioma_espa%
 
 ## Instalación
 
-
 ```shell
 apt-get -y update
 apt-get -y install git ipset
@@ -23,6 +22,7 @@ chmod +x /root/scripts/non-spanish-country-blocker/*.sh -R
 ## Configuración NFTables
 
 Ejecutar:
+
 ```shell
 /root/scripts/non-spanish-country-blocker/NFTables-Configurar.sh
 /root/scripts/non-spanish-country-blocker/NFTables-RecargarReglas.sh
@@ -30,4 +30,7 @@ Ejecutar:
 ## Configuración IPTables
 
 Ejecutar:
+
+```shell
 /root/scripts/non-spanish-country-blocker/IPTables-Configurar.sh
+```
