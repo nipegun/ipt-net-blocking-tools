@@ -458,7 +458,6 @@ sed -i -e 's|flush ruleset|flush ruleset\n|g' /etc/nftables.conf
 
 echo "" >>                                                                    /etc/nftables.conf
 echo "table netdev filter {" >>                                               /etc/nftables.conf
-echo "" >>                                                                    /etc/nftables.conf
 echo "  set country-ipv4-blacklist {" >>                                      /etc/nftables.conf
 echo "    type ipv4_addr" >>                                                  /etc/nftables.conf
 echo "    flags interval" >>                                                  /etc/nftables.conf
