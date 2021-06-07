@@ -1,6 +1,6 @@
 # ipt-net-blocking-tools
 
-IPTables tools to block some internet traffic
+IPTables methods to block some internet traffic
 
 ## Installation
 
